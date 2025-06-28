@@ -5,9 +5,12 @@ var beacon = {
 };
 
 if (beacon.token === "JBSWY3DPEBLW64TMMQQQ==") {
-  alert("✅ Malicious init.js loaded");
+  alert("✅ init.js loaded and executed");
+
   const el = document.querySelector('.warning');
   if (el) {
     el.innerText = "THM{this_is_the_real_flag}";
+  } else {
+    alert("⚠️ Element with class .warning not found!");
   }
 }
